@@ -1,6 +1,29 @@
-.bg-image{
+.bg-image {
     background: url("https://res.cloudinary.com/diynkxbpc/image/upload/v1709381053/logo_tuaf7p.jpg");
     background-size: cover;
+    background-position: center; /* Center the background image */
     object-fit: cover;
-    
+    height: 100vh;
+}
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 599px) {
+    .bg-image {
+        background: none; /* Hide the background image on mobile phones */
+        background-color: #d1d5db; /* Add a background color matching white text */
+    }
+}
+
+/* Media Query for Tablets (e.g., iPad) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .bg-image {
+        background-size: cover; /* Adjust as needed for tablet view */
+    }
+}
+
+/* Media Query for Laptops/Desktops */
+@media only screen and (min-width: 1025px) {
+    .bg-image {
+        background-size: cover; /* Keep cover for larger screens */
+    }
 }
