@@ -9,8 +9,11 @@
 
 @media only screen and (max-width: 599px) {
     .bg-image {
-        background: none; 
-        background-color: #d1d5db; 
+        background: url("https://res.cloudinary.com/dgrjzgx4h/image/upload/v1709498388/Screenshot_2024-03-04-02-04-41-362_net.zedge.android-edit_cdj5ff.jpg"); 
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        height: 100vh;
     }
 }
 

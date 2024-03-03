@@ -16,7 +16,7 @@ function Navbar() {
           <img
             src="https://res.cloudinary.com/diynkxbpc/image/upload/v1709382302/chip_ojpvhi.png"
             className="h-8"
-            alt="Flowbite Logo"
+            alt="Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             AI Models App
