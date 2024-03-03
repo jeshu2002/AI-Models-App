@@ -1,0 +1,6 @@
+.bg-image{
+    background: url("https://res.cloudinary.com/diynkxbpc/image/upload/v1709381053/logo_tuaf7p.jpg");
+    background-size: cover;
+    object-fit: cover;
+    
+}
