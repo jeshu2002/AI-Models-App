@@ -1,24 +1,32 @@
-// src/pages/About.jsx
 import React from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const About = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 1 } },
+  };
+
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <main className="container mx-auto mt-4 p-8">
+    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+      <motion.div
+        className="bg-white rounded-lg p-8 shadow-md max-w-md w-full mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
         <motion.h1
           variants={textVariants}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-4"
+          className="text-4xl font-bold mb-4 text-center"
         >
           About Us
         </motion.h1>
@@ -26,21 +34,20 @@ const About = () => {
           variants={textVariants}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg"
+          className="text-lg leading-relaxed mb-6 text-gray-700 text-center"
         >
           Kolluru Jeshwanth
-          <br/>
-          2010110351<br/>
-          B-Tech Computer Science(2024)<br/>
+          <br />
+          2010110351<br />
+          B-Tech Computer Science(2024)<br />
           Shiv Nadar University
         </motion.p>
+
         <motion.h2
           variants={textVariants}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 0.5 }}
-          className="text-xl font-bold mb-4 mt-3 "
+          className="text-xl font-bold mb-4 mt-6 text-center"
         >
           Social Accounts
         </motion.h2>
@@ -48,45 +55,43 @@ const About = () => {
           variants={textVariants}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex gap-x-5 items-center"
+          className="flex gap-x-5 items-center justify-center"
         >
           <motion.a
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-lg"
+            whileHover={{ scale: 1.1 }}
+            className="text-lg text-blue-600 hover:text-blue-800"
             href="https://www.linkedin.com/in/jeshwanth-kolluru-566732202/"
             target="_blank"
           >
-            <FaLinkedin className="h-7 w-7 " />
+            <FaLinkedin className="h-7 w-7" />
           </motion.a>
           <motion.a
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-lg"
+            whileHover={{ scale: 1.1 }}
+            className="text-lg text-gray-800 hover:text-gray-900"
             href="https://github.com/jeshu2002?tab=repositories"
             target="_blank"
           >
-            <FaGithub className="h-7 w-7 " />
+            <FaGithub className="h-7 w-7" />
           </motion.a>
           <motion.a
-        href = "mailto:kk345@snu.edu.in"
+            href="mailto:kk345@snu.edu.in"
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-lg"
-            
+            whileHover={{ scale: 1.1 }}
+            className="text-lg text-red-600 hover:text-red-800"
             target="_blank"
           >
             <MdEmail className="h-7 w-7" />
           </motion.a>
         </motion.div>
-      </main>
+      </motion.div>
     </div>
   );
 };
