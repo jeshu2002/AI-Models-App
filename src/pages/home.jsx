@@ -16,7 +16,7 @@ const HomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="font-bold">Welcome to</span>
+          <span className="font-bold">Welcome to my</span>
 
           <span className="font-bold"> AI Models App</span>
           <br />
