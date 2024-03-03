@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 import "./home.css";
 const HomePage = () => {
   return (
-    <div className="bg-gray-100  bg-image flex flex-col pt-56 overflow-hidden items-center justify-center px-4 h-screen">
+    <div className="bg-gray-100 bg-image flex flex-col pt-56 overflow-hidden items-center justify-center px-4 h-screen">
       <section
         id="home"
         className="mb-28  text-white max-w-[50rem] text-center h-screen  justify-center sm:mb-0 scroll-mt-[100rem]"
