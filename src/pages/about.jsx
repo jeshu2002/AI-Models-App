@@ -42,6 +42,72 @@ const About = () => {
           B-Tech Computer Science(2024)<br />
           Shiv Nadar University
         </motion.p>
+        <motion.h2
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-2xl font-bold mb-4 text-center"
+        >
+          About Website
+        </motion.h2>
+
+        <motion.h2
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-xl font-bold text-center"
+        >
+          Comprehensive AI and LLM Information
+        </motion.h2>
+
+        <motion.p
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-lg leading-relaxed mb-2 text-gray-700 text-center"
+        >
+          The website provides detailed content on Artificial Intelligence and Large Language Models.
+
+        </motion.p>
+
+        <motion.h2
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-xl font-bold  text-center"
+        >
+          Efficient Search Capability
+        </motion.h2>
+
+        <motion.p
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-lg leading-relaxed mb-2 text-gray-700 text-center"
+        >
+          Users can easily find specific information about AI and LLM models through search feature.
+
+        </motion.p>
+
+
+        <motion.h2
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-xl font-bold  text-center"
+        >
+          Responsive Design
+        </motion.h2>
+
+        <motion.p
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-lg leading-relaxed  text-gray-700 text-center"
+        >
+          The website ensures a seamless user experience on various devices, including tablets, laptops, and phones.
+        </motion.p>
+
 
         <motion.h2
           variants={textVariants}
