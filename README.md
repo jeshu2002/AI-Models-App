@@ -21,12 +21,12 @@ The website ensures a seamless user experience on various devices, including tab
 3. use `npm start` to start the client application.
 
 ## JavaScript framework used are:
-1. React(To display the web appication `Frontend`.)
-2. JavaScript.
-3. React-Icons(Representation of symbols).
-4. Axios(Fetch the data from `Node.js Serverless Function in vercel this will generate a api url which contains my json objects`).
-5. framer-motion used for motion effects for web application.
-6. headlessui/react for Diolog popup represent the description of the respective selected model.
+1. `React`(To display the web appication `Frontend`.)
+2. `JavaScript`.
+3. `React-Icons`(Representation of symbols).
+4. `Axios`(Fetch the data from `Node.js Serverless Function in vercel this will generate a api url which contains my json objects`).
+5. `framer-motion` used for motion effects for web application.
+6. `headlessui/react` for Diolog popup represent the description of the respective selected model.
 
 ## Deployment
 1. Vercel this application which helps for deployement for frontend appication and Severless function.
