@@ -16,13 +16,18 @@ The website ensures a seamless user experience on various devices, including tab
 ```bash
  git clone https://github.com/jeshu2002/Atlan-Assignment.git
  ```
-3. Github Link(Frontend): https://github.com/jeshu2002/Atlan-Assignment.
+3. Github Link(Frontend): https://github.com/jeshu2002/Atlan-Assignment
 
 ## How to run project:
 1. In one terminal go to cd to Atlan-Assignment directory.
-2. use `npm install` to install all required node modules.
-3. use `npm start` to start the client application.
-
+2. To install all required node modules.
+```bash
+npm install
+```
+3. To start the client application.
+```bash
+npm start
+```
 ## JavaScript framework used are:
 1. `React`(To display the web appication `Frontend`).
 2. `JavaScript`.
