@@ -12,7 +12,10 @@ The website ensures a seamless user experience on various devices, including tab
 
 ## How to clone the project
 1. Open a terminal then redirect to your one directory(To fetching the loaction for the project in your loacl repository).
-2. run this command `git clone https://github.com/jeshu2002/Atlan-Assignment.git`.
+2. run this command. 
+```bash
+ git clone https://github.com/jeshu2002/Atlan-Assignment.git
+ ```
 3. Github Link(Frontend): https://github.com/jeshu2002/Atlan-Assignment.
 
 ## How to run project:
