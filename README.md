@@ -41,5 +41,6 @@ The website ensures a seamless user experience on various devices, including tab
 1. By using Speed Insights in vercel.
 In Desktop
 ![image](https://res.cloudinary.com/dgrjzgx4h/image/upload/v1709556507/Desktop_jpy5kb.png)
+
 In Mobile
 ![image](https://res.cloudinary.com/dgrjzgx4h/image/upload/v1709556545/Mobile_fma6z4.png)
