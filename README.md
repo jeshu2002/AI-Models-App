@@ -39,6 +39,7 @@ The website ensures a seamless user experience on various devices, including tab
 
 ### How you measured this load time:
 1. By using Speed Insights in vercel.
+
 In Desktop
 ![image](https://res.cloudinary.com/dgrjzgx4h/image/upload/v1709556507/Desktop_jpy5kb.png)
 
