@@ -39,7 +39,7 @@ The website ensures a seamless user experience on various devices, including tab
 
 ### Node.js with Vercel Serverless Functions:
 1. To clone backend repoitory run this command `git clone https://github.com/jeshu2002/nodejs-serverless-function-express.git`.
-2. Github link: https://github.com/jeshu2002/nodejs-serverless-function-express`
+2. Github link: https://github.com/jeshu2002/nodejs-serverless-function-express
 
 ## Measurement for load time (performance):
 1. By using Speed Insights in vercel.
