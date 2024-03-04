@@ -46,7 +46,10 @@ npm start
 2. #### Backend: https://nodejs-serverless-function-express-omega-sand.vercel.app/api/hello
 
 ### Node.js with Vercel Serverless Functions:
-1. To clone backend repoitory run this command `git clone https://github.com/jeshu2002/nodejs-serverless-function-express.git`.
+1. To clone backend repoitory run this command:
+```bash
+git clone https://github.com/jeshu2002/nodejs-serverless-function-express.git
+```
 2. Github link: https://github.com/jeshu2002/nodejs-serverless-function-express
 
 ## Measurement for load time (performance):
