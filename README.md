@@ -36,6 +36,7 @@ npm start
 5. `framer-motion` used for motion effects for web application.
 6. `headlessui/react` for Diolog pop up represent the description of the respective selected modelCard.
 7. `Speed Insights` for measurement for load time.
+8. `Tailwind Css` for styling.
 
 ## Deployment
 1. The Vercel application helps in deployment of frontend application and Severless function.
