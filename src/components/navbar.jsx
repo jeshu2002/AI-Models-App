@@ -1,8 +1,11 @@
 // src/components/Navbar.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import LoginButton from './LoginButton';
+import LogoutButton from './LogoutButton';
+import Profile from './Profile';
 
-function Navbar() {
+function Navbar({ isAuthenticated }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -86,7 +89,7 @@ function Navbar() {
                 Models
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/AddModels"
                 onClick={closeMenu} 
@@ -94,16 +97,22 @@ function Navbar() {
               >
                 Add Model
               </Link>
-            </li>
-            <li>
-              <Link
-                to="/login"
-                onClick={closeMenu} 
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Login
-              </Link>
-            </li>
+            </li> */}
+            {!isAuthenticated && (
+              <li>
+                <LoginButton />
+              </li>
+            )}
+            {isAuthenticated && (
+              <>
+                <li>
+                  <Profile />
+                </li>
+                <li>
+                  <LogoutButton />
+                </li>
+              </>
+            )}
           </ul>
         </div>
       </div>
